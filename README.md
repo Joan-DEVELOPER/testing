@@ -1,2 +1,2 @@
-# testing
-repositorio para pruebas desde git
+> [!NOTE]
+> Este fichero explica todo el funcionamiento de la web app
