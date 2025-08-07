@@ -36,19 +36,39 @@
     <button class="section">Contact Us</button>
   </div>
 
-  <div class="promotion">
-    <div class="promoCard">
-      <img
-        src="https://media.ambito.com/p/78cfb2963ae3d070339d361607822a0d/adjuntos/239/imagenes/040/281/0040281423/1200x675/smart/black-fridaywebp.png"
-        alt="black friday banner"
-      />
-    </div>
-  </div>
   <div class="products">
-    <div class="product">Product 1</div>
-    <div class="product">Product 1</div>
-    <div class="product">Product 1</div>
-    <div class="product">Product 1</div>
+    <div class="product">
+      <img
+        src="https://randomoutputs.com/assets/images/tools/animals/fish.webp"
+        alt="product image"
+      /><br />
+      Product 1
+      <p>New product sample</p>
+    </div>
+    <div class="product">
+      <img
+        src="https://randomoutputs.com/assets/images/tools/animals/bumble-bee.webp"
+        alt="product image"
+      /><br />
+      Product 2
+      <p>New product sample</p>
+    </div>
+    <div class="product">
+      <img
+        src="https://randomoutputs.com/assets/images/tools/animals/fox.webp"
+        alt="product image"
+      /><br />
+      Product 3
+      <p>New product sample</p>
+    </div>
+    <div class="product">
+      <img
+        src="https://randomoutputs.com/assets/images/tools/animals/puppy.webp"
+        alt="product image"
+      /><br />
+      Product 4
+      <p>New product sample</p>
+    </div>
   </div>
 </template>
 
@@ -159,5 +179,11 @@ select {
   width: 22.8%;
   margin: 10px;
   padding: 10px;
+}
+
+.product img {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
 }
 </style>
