@@ -14,8 +14,21 @@
 
 <style scoped>
 /*scoped hace el estilo único de esta pagina-- >*/
-.title {
-  background-color: blue;
+ul {
+  background-color: transparent;
   color: white;
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+li,
+a {
+  color: black;
+  text-decoration: none;
 }
 </style>
